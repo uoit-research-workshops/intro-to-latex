@@ -1,0 +1,29 @@
+\documentclass[a4paper]{article}
+
+%Use the graphics package 
+\usepackage{xcolor,graphicx}
+
+\begin{document}
+
+\title{Adding Pretty Pictures }
+\author{You \and Me}
+\date{\today}
+\maketitle
+
+%As always we have to start the environment 
+\begin{figure}[h]
+%This is how we can center the figure 
+\begin{center}
+%You can resize the figure using the scale option
+%There are options to clip the figure as well 
+\includegraphics[scale=0.5]{figure_example.png}
+\end{center}
+%Add your caption here 
+\caption{We can add captions to our figures as well}
+%Close the environment 
+\end{figure}
+
+\end{document}
+
+
+

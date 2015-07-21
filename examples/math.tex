@@ -1,0 +1,36 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Using math mode}
+\author{You \and Me}
+\date{\today}
+\maketitle
+
+One of the primary reasons you will use \LaTeX \ is for writing equations.  
+
+\begin{equation}
+F_{net}=ma
+\end{equation}
+
+Equations don't have to be numbered. You can disable the numbering by putting an asterisk in the begin and end statements 
+\begin{equation*}
+E=mc^{2}
+\end{equation*}
+It is also very convenient to write multiple lines in an equation using the align environment:
+\begin{align*}
+2x - 5y &=  8 \\ 
+3x + 9y &=  -12
+\end{align*}
+You can write all sorts of fancy symbols (which can be found on the cheatsheet!)
+\begin{equation*}
+i\hbar \frac{\partial | \Psi \rangle}{ \partial t}=\hat{H}|\Psi \rangle
+\end{equation*}
+
+Math mode can be used inline with text (e.g. $e^{-\lambda x}$) which is very convenient. All you need to do is wrap your equation (or whatever you are using) in dollar signs.  
+
+\end{document}
+
+
+
